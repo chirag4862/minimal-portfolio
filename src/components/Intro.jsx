@@ -10,7 +10,7 @@ export default function Intro() {
         <p className='text-base md:text-xl mb-3 font-medium'>
             Software Engineer & Web Developer
         </p>
-        <p className='text-sm max-w-xl mb-6 font-bold'>
+        <p className='text-sm max-w-xl mb-6 font-bold ml-10 mr-10'>
         Hi there! I'm Chirag, a frontend developer from Kolkata.
         I create immersive 3D worlds and design web and mobile apps that look
         as good as I do in my LinkedIn headshot.
