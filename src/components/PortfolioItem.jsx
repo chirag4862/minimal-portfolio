@@ -2,7 +2,10 @@ import React from "react";
 
 export default function PortfolioItem({ title, imgUrl, stack, link }) {
   return (
-    <div className="border-2 border-stone-900 rounded-md overflow-hidden">
+    <div
+      className="border-2 border-stone-900 rounded-md overflow-hidden
+    dark:border-white"
+    >
       <a href={link}>
         <img
           src={imgUrl}
@@ -10,7 +13,8 @@ export default function PortfolioItem({ title, imgUrl, stack, link }) {
           className="w-full h-36 md:h-48 object-cover cursor-pointer"
         />
         <div className="w-full p-4">
-          <h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold">
+          <h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold
+          dark:text-white">
             {title}
           </h3>
           <p
@@ -20,7 +24,7 @@ export default function PortfolioItem({ title, imgUrl, stack, link }) {
             {stack.map((item) => (
               <span
                 className="inline-block px-2 py-1 font-semibold border-2
-                    border-stone-900 rounded-md"
+                    border-stone-900 rounded-md dark:border-white"
               >
                 {item}
               </span>
